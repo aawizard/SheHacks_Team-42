@@ -7,6 +7,7 @@ import 'package:map/models/user.dart';
 //import 'map';
 import 'dart:math';
 import 'package:map/screens/crimerate.dart';
+import 'package:map/utils/constant.dart';
 import 'package:provider/provider.dart';
 
 class NavDrawer extends StatefulWidget {
@@ -249,6 +250,7 @@ class _NavDrawerState extends State<NavDrawer> {
             margin: EdgeInsets.symmetric(vertical: 10),
             width: MediaQuery.of(context).size.width * 0.8,
             decoration: BoxDecoration(),
+            color: kblue,
             child: RaisedButton(
               onPressed: (){
                 _db.getMolestation(stateValue, cityValue, chooseyear);
@@ -261,7 +263,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   MaterialPageRoute(
                     builder: (context) {
 
-                      return crimeRate(molestation: random.nextInt(100),drugs: random.nextInt(100),other: random.nextInt(100),robbery: random.nextInt(100),murder: random.nextInt(100),);
+                      return crimeRate(molestation: random.nextInt(90),drugs: random.nextInt(90),other: random.nextInt(90),robbery: random.nextInt(90),murder: random.nextInt(70),);
                     },
                   ),
                 );

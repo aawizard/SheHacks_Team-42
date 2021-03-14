@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:map/utils/constant.dart';
 import 'package:map/utils/secrets.dart'; // Stores the Google Maps API Key
 //import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:geocoding/geocoding.dart';
@@ -495,7 +496,7 @@ class _MapViewState extends State<MapView> {
                               });
                             }
                                 : null,
-                            color: Colors.red,
+                            color: kblue,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(20.0),
                             ),
