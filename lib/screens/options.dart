@@ -9,6 +9,7 @@ import 'package:map/screens/onboarding.dart';
 import 'package:provider/provider.dart';
 import 'package:map/services/db.dart';
 import 'package:map/screens/safe route.dart';
+import 'package:map/screens/chat_bot.dart';
 AuthService _auth=AuthService();
 class MyHomepage extends StatefulWidget {
   @override
@@ -105,7 +106,10 @@ class box extends StatelessWidget {
               return MapView();
             }));
               break;
-            case 3:
+            case 3:Navigator.push(
+                context, MaterialPageRoute(builder: (context) {
+              return ChatBot();
+            }));
 
           }
         },
