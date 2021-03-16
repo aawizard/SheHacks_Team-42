@@ -28,12 +28,12 @@ class _MyHomepageState extends State<MyHomepage> {
             child:Column(
               children: [
                 SizedBox(height: 175,),
-                box(icon: Icons.insert_chart,tittle: 'Crime Rate',fun: 1,),
+                box(icon: Icons.insert_chart,tittle: 'CrimeMaster',fun: 1,),
                 SizedBox(height: 25,),
-                box(icon: Icons.location_pin,tittle: 'Safest Route',fun: 2),
+                box(icon: Icons.location_pin,tittle: 'GOGO Finder',fun: 2),
 
                 SizedBox(height: 25,),
-                box(icon: Icons.chat,tittle: 'Consultation',fun: 3),
+                box(icon: Icons.chat,tittle: 'GOGO Chat',fun: 3),
                 SizedBox(height: 25,),
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 10),

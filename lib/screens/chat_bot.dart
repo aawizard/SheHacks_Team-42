@@ -70,6 +70,15 @@ class _ChatBotState extends State<ChatBot> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: FlatButton(
+          onPressed: (){
+            Navigator.pop(context);
+          },
+          child: Icon(
+            Icons.arrow_back,
+            color: kblue,
+          ),
+        ),
         title: Text(
           "Chat with gogo",
           style: TextStyle(

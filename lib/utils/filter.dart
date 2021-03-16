@@ -250,7 +250,6 @@ class _NavDrawerState extends State<NavDrawer> {
             margin: EdgeInsets.symmetric(vertical: 10),
             width: MediaQuery.of(context).size.width * 0.8,
             decoration: BoxDecoration(),
-            color: kblue,
             child: RaisedButton(
               onPressed: (){
                 _db.getMolestation(stateValue, cityValue, chooseyear);

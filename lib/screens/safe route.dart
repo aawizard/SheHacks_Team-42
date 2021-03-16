@@ -452,16 +452,16 @@ class _MapViewState extends State<MapView> {
                                 });
                               }),
                           SizedBox(height: 10),
-                          Visibility(
-                            visible: _placeDistance == null ? false : true,
-                            child: Text(
-                              'DISTANCE: $_placeDistance km',
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
+//                          Visibility(
+//                            visible: _placeDistance == null ? false : true,
+//                            child: Text(
+//                              'DISTANCE: $_placeDistance km',
+//                              style: TextStyle(
+//                                fontSize: 16,
+//                                fontWeight: FontWeight.bold,
+//                              ),
+//                            ),
+//                          ),
                           SizedBox(height: 5),
                           RaisedButton(
                             onPressed: (_startAddress != '' &&
